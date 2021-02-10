@@ -1,0 +1,48 @@
+.title-header {
+  width: 50vw;
+  text-align: justify;
+}
+
+.background {
+  background-color: #ff8008;
+}
+
+body {
+  min-height: 200vh;
+}
+
+.carousel {
+  width: 40%;
+}
+
+.jumbotron {
+  height: 100vh;
+  background: linear-gradient(to bottom, #ff8008, #ffc837); 
+}
+
+/* Tablets and Large Phones */
+@media screen and (min-width: 600px) {
+  .title-header {
+    font-size: 18px;
+  }
+  .image-header {
+    width: 250px;
+  }
+}
+
+@media screen and (min-width: 992px) {
+  .title-header {
+    font-size: 30px;
+    width: 40%;
+  }
+
+  .image-header {
+    width: 550px;
+  }
+}
+
+/* Mobile Screen */
+@media screen and (max-width: 600px) {
+
+}
+

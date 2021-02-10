@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="css/bootstrap.min.css">
+  <title>Data Rayon | Universitas Nurul Jadid</title>
+</head>
+<body>
+
+  <nav class="navbar navbar-expand-lg navbar-dark bg-primary fixed-top">
+    <div class="container">
+      <a class="navbar-brand d-flex" style="font-family: 'Poppins', sans-serif;" href="#">
+        <img src="img/logopmii.png" width="50" class="text-shadow" alt="">
+        <span class="d-flex flex-column ml-2">
+          <span class="title">Pergerakan Mahasiswa</span>
+          <span class="subtitle mt-n2">Islam Indonesia</span>
+        </span>
+      </a>
+      
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
+          <a class="nav-link" href="index.html">Home</a>
+          <a class="nav-link" href="#">Sejarah</a>
+          <a class="nav-link" href="#">Event</a>
+          <a class="nav-link active" href="data_rayon.html">Data Rayon</a>
+          <a class="nav-link" href="#">Download</a>
+          <!-- <form action="" class="form-inline">
+            <a href="" class="btn btn-outline-primary shadow-sm ml-3">Register</a>
+            <a href="" class="btn btn-light ml-2">Login</a>
+          </form> -->
+        </div>
+      </div>
+    </div>
+  </nav>
+
+  <!-- jumbotron -->
+  <div class="jumbotron jumbotron-fluid bg-primary d-flex justify-content-center align-items-center">
+    <div class="content text-light w-50">
+      <h2>Selamat Datang Di Data Rayon</h2>
+      <br>
+      <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Esse nisi nam voluptates explicabo suscipit amet quidem perferendis. Voluptas et quibusdam voluptate soluta id, non adipisci qui aspernatur nesciunt doloribus, vel ea quod dolores harum, fuga totam? Voluptatum, laborum fuga. Aliquam?</p>
+    </div>
+    <img src="img/undraw_Data_re_80ws.svg" width="450" class="img-fluid">
+  </div>
+
+  <!-- table data rayon -->
+  <div class="container container-fluid">
+    <div class="input-group">
+      <input type="text" class="form-control" placeholder="Masukkan Nama Anggota..." autofocus>
+      <div class="input-prepend">
+        <button class="btn btn-success"> Cari Anggota</button>
+      </div>
+    </div>
+    <table class="table">
+      <thead>
+        <th>No. </th>
+        <th>ID</th>
+        <th>Nama</th>
+        <th>Tempat, Tanggal Lahir</th>
+        <th>Alamat</th>
+        <th>Prodi</th>
+        <th>Nomer HP</th>
+        <th>Email</th>
+      </thead>
+      <tbody>
+        <tr>
+          <td>1.</td>
+          <td>PMII1821400025</td>
+          <td>Didik Nur Hidayat</td>
+          <td>Probolinggo, 27 Juni 2000</td>
+          <td>Desa Pesisir Kecamatan Sumberasih</td>
+          <td>Informatika</td>
+          <td>088217835845</td>
+          <td>didikhidayat27@gmail.com</td>
+        </tr>
+      </tbody>
+    </table>
+  </div>
+  
+  <script src="js/jquery-3.5.1.min.js"></script>
+  <script src="js/bootstrap.min.js"></script>
+</body>
+</html>
