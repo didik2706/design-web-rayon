@@ -1,0 +1,19 @@
+body { 
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.background {
+  background-color: orange;
+}
+
+.head {
+  width: 50px;
+}
+
+.head hr {
+  margin-top: -5px;
+  height: 3px;
+}

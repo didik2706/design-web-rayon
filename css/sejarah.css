@@ -1,0 +1,35 @@
+body { 
+  color: whitesmoke;
+  padding: 0;
+  margin: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+.background {
+  background-color: #ff8b10;
+}
+
+.dropdown-item {
+  color: #ff8008 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #eaeaea;
+  color: #ff8008 !important;
+}
+
+.sejarah {
+  margin-top: 70px;
+  margin-bottom: -5px;
+  background-color: #ff8b10;
+}
+
+footer, .kata {
+  background-color: #ff8b10;
+}
+
+hr {
+  height: 5px;
+  border-radius: 20px;
+  margin-top: -2px;
+}

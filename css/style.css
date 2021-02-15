@@ -1,11 +1,12 @@
 body {
   overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
 }
 
 .dropdown-item:hover {
-  background-color: #ff8008;
+  background-color: #eaeaea;
+  color: #ff8008 !important;
   font-family: 'Poppins', sans-serif;
-  color: whitesmoke;
 }
 
 .title-header {
@@ -24,7 +25,7 @@ body {
 
 .jumbotron {
   box-sizing: border-box;
-  height: 100vh;
+  height: 50vh;
   background: linear-gradient(to bottom, #ff8008, #ffc837);
 }
 
