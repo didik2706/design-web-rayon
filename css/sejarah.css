@@ -1,0 +1,39 @@
+body { 
+  overflow-x: hidden;
+  font-family: 'Poppins', sans-serif;
+}
+
+.background {
+  background-color: #ff8b10;
+}
+
+.dropdown-item {
+  color: #ff8008 !important;
+}
+
+.dropdown-item:hover {
+  background-color: #eaeaea;
+  color: #ff8008 !important;
+}
+
+.head {
+  width: 50vw;
+}
+
+.head hr {
+  margin-top: -3px;
+  margin-left: 0px;
+  height: 5px;
+  width: 150px;
+  border-radius: 10px;
+}
+
+.jumbotron {
+  margin-top: 50px;
+  margin-bottom: -50px;
+  background-color: whitesmoke !important;
+}
+
+footer, .kata {
+  background-color: #ff8b10;
+}
